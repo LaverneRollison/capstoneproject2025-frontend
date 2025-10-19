@@ -1,0 +1,59 @@
+.booking-page .page-title { padding-top: 10px; margin-bottom: 10px; }
+.booking-page h2 { margin: 8px 0; font-size: 24px; }
+.booking-page .lead { color: #666; font-size: 13px; margin-bottom: 16px; max-width: 420px; }
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+/* left form card */
+.booking-form {
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  padding: 18px;
+  border-radius:6px;
+}
+
+.card-section { border: none; margin: 0 0 12px; padding:0; }
+.card-section legend { font-weight:700; color:#333; margin-bottom: 8px; font-size:13px; }
+
+.booking-form .row {
+  display:flex;
+  gap:12px;
+  margin-bottom: 10px;
+}
+
+.booking-form input, .booking-form select, .booking-form textarea {
+  flex:1;
+  padding: 10px 12px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  font-size: 13px;
+}
+
+.booking-form select { appearance: none; background-image: none; }
+
+.booking-form textarea { resize: vertical; min-height: 86px; }
+
+/* buttons */
+.btn.primary.large { background: var(--blue); color:white; padding: 10px 14px; border-radius: 6px; border:none; margin-top: 10px; }
+
+/* right sidebar blocks */
+.booking-sidebar .help-card,
+.booking-sidebar .info-card,
+.booking-sidebar .emergency-card {
+  background: #fafafa;
+  border-radius:6px;
+  padding: 14px;
+  border: 1px solid #efefef;
+  margin-bottom: 14px;
+}
+
+.booking-sidebar h4 { margin: 0 0 8px; font-size: 15px; }
+
+.booking-sidebar .phone { margin: 0 0 8px; }
+
+.btn.danger { background: #ff2b2b; color: #fff; border: none; padding: 8px 12px; border-radius:6px; }
